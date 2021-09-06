@@ -13,7 +13,7 @@ En este repositorio se encontrará el código de la aplicación de coinversiones
 
 ### Pasos para probar app.
 
-Primero por favor registrarse y luego realizar el oogueo , ya que el dommy utilizado necesita del id para encontrar el usuario 
+Primero por favor registrarse y luego realizar el logueo , ya que el dommy utilizado necesita del id para encontrar el usuario 
 
 el siguiente paso seria agregar cuentas desde la opcion 
 
