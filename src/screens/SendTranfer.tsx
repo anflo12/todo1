@@ -75,7 +75,7 @@ export default function SendTranfer({navigation, route}: any) {
         </View>
       </View>
 
-      {result ? (
+      {result.length > 0 && result ? (
         <Button
           buttonStyle={styles.button}
           title="Realizar Transferencia"
