@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Alert, StyleSheet, Text, View} from 'react-native';
 import {Button, Input} from 'react-native-elements';
 
@@ -20,6 +20,9 @@ export default function SendTranfer({navigation, route}: any) {
     message: '',
   });
 
+  useEffect(() => {
+    setinput({numAcount: data.numAcount, value: data.value, message: ''});
+  }, [data.numAcount, data.value]);
   const handleTextChange = (value: string, name: string) => {
     setinput({...input, [name]: value});
   };
